@@ -16,12 +16,12 @@ const MobileNav = () => {
     <>
       <div className="md:hidden">
         <Sheet>
-          <SheetTrigger>
+          <SheetTrigger asChild>
             <Menu />
           </SheetTrigger>
           <SheetContent>
             <SheetHeader>
-              <SheetDescription>
+              <SheetDescription asChild>
                 <div className="flex text-balance mt-10 text-lg flex-col space-y-4 items-start">
                   <Link href={""}>Home</Link>
                   <Link href={""}>About</Link>

@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 const images = [
   { url: "/logoipsum-237.svg", alt: "log" },
-  // { url: "/logoipsum-297.svg", alt: "log" },
   { url: "/logoipsum-285.svg", alt: "log" },
   { url: "/logoipsum-250.svg", alt: "log" },
   { url: "/logoipsum-260.svg", alt: "log" },

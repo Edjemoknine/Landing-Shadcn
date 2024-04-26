@@ -14,17 +14,17 @@ import Logo from "./Logo";
 
 const Navigation = () => {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="w-full">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Get Started</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid grid-cols-2 h-60 p-3 w-60">
-              <div>
+            <div className="w-72 grid gap-3 grid-cols-2 p-3 h-60 divide-x-2">
+              <div className="bg-slate-200 p-2 flex justify-center items-center rounded-lg ">
                 <Logo />
               </div>
               <div>
-                <ul>
+                <ul className="flex flex-col gap-2 pl-3">
                   <li>React</li>
                   <li>NextJs</li>
                   <li>Mongo DB</li>
@@ -36,12 +36,12 @@ const Navigation = () => {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Get Started</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid gap-3 grid-cols-2 h-60 p-3 w-60">
+            <div className="grid gap-3 grid-cols-2 h-60 p-3 w-72 divide-x-2">
               <div className="bg-slate-200 p-2 flex justify-center items-center rounded-lg">
                 <Logo />
               </div>
               <div>
-                <ul className="flex flex-col gap-1">
+                <ul className="flex flex-col pl-3">
                   <li className=" hover:bg-slate-100 p-2 rounded-lg cursor-pointer">
                     React
                   </li>
@@ -64,8 +64,8 @@ const Navigation = () => {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Get Started</NavigationMenuTrigger>
-          <NavigationMenuContent className="w-[350px]">
-            <div className="grid grid-cols-2 h-60 p-3 gap-3">
+          <NavigationMenuContent>
+            <div className="grid grid-cols-2 h-60 p-3 gap-3 w-72">
               <div>
                 <ul className="w-full flex flex-col gap-2">
                   <li>
